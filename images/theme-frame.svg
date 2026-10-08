@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="3000"
+     height="200"
+     viewBox="0 0 3000 200">
+
+  <defs>
+    <linearGradient id="sage"
+                    x1="0"
+                    y1="0"
+                    x2="1"
+                    y2="0">
+
+      <stop offset="0%"
+            stop-color="#b8d0be"/>
+
+      <stop offset="45%"
+            stop-color="#c4d8c9"/>
+
+      <stop offset="100%"
+            stop-color="#aec7b5"/>
+    </linearGradient>
+
+    <radialGradient id="glow"
+                    cx="80%"
+                    cy="30%"
+                    r="60%">
+
+      <stop offset="0%"
+            stop-color="#70997b"
+            stop-opacity="0.22"/>
+
+      <stop offset="100%"
+            stop-color="#70997b"
+            stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect
+    width="3000"
+    height="200"
+    fill="url(#sage)"/>
+
+  <rect
+    width="3000"
+    height="200"
+    fill="url(#glow)"/>
+
+</svg>
